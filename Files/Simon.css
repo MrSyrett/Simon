@@ -1,0 +1,46 @@
+.container{
+    position: relative;
+    top: 90px;
+    margin: 0 auto;
+    width: 105px;
+    background-color: black;
+    border-radius: 25px
+    
+}
+.zero{
+    height: 50px;
+    width: 50px;
+    background-color: green;
+    margin: 0 auto;
+    float: left;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 20px;
+}
+.one{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    margin: 0 auto;
+    float: right;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 20px;
+    
+}
+.two{
+    height: 50px;
+    width: 50px;
+    background-color: yellow;
+    float: left;
+    margin-top: 5px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 20px;
+}
+.three{
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    float: right;
+    margin-top: 5px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 20px;
+}
