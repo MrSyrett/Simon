@@ -1,76 +1,118 @@
+@import 'https://fonts.googleapis.com/css?family=Orbitron:900';
+body{
+    background-image: url("http://www.planwallpaper.com/static/images/Light-Wood-Background-Wallpaper.jpg");
+    font-family: 'Orbitron', sans-serif; 
+}
 .container{
     position: relative;
-    top: 90px;
     margin: 0 auto;
-    width: 105px;
+    top: 50px;
+    width: 500px;
+    height: 500px;
     background-color: black;
-    border-radius: 25px
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px black;
     
 }
 .zero{
-    height: 50px;
-    width: 50px;
+    height: 240px;
+    width: 240px;
     background-color: green;
     margin: 0 auto;
     float: left;
-    border-top-left-radius: 50px;
-    border-bottom-right-radius: 20px;
+    border-top-left-radius: 100%;
+    border: 10px solid black;
 }
 .one{
-    height: 50px;
-    width: 50px;
+    height: 240px;
+    width: 240px;
     background-color: red;
     margin: 0 auto;
     float: right;
-    border-top-right-radius: 50px;
-    border-bottom-left-radius: 20px;
+    border-top-right-radius: 100%;
+    border: 10px solid black;
     
 }
 .two{
-    height: 50px;
-    width: 50px;
+    height: 240px;
+    width: 240px;
     background-color: orange;
     float: left;
-    margin-top: 5px;
-    border-bottom-left-radius: 50px;
-    border-top-right-radius: 20px;
+    margin-top: 20px;
+    border-bottom-left-radius: 100%;
+    border: 10px solid black;
 }
 .three{
-    height: 50px;
-    width: 50px;
+    height: 240px;
+    width: 240px;
     background-color: blue;
     float: right;
-    margin-top: 5px;
-    border-bottom-right-radius: 50px;
-    border-top-left-radius: 20px;
+    margin-top: 20px;
+    border-bottom-right-radius: 100%;
+    border: 10px solid black;
 }
-.level{
+.face{
     margin: 0 auto;
+    background-color: white;
+    color: black;
+    width: 300px;
+    height: 300px;
+    top: -350px;
+    border: 10px solid black;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+}
+
+p{
+    margin-top: 20px;
+    font-size: 40px;
+}
+.Start{
+    margin: 0px;
+    width: 80%;
+}
+.output{
     background-color: black;
-    color: white;
     width: 50px;
     height: 50px;
-    position: relative;
-    top: 12px;
-    border-radius: 50px;
+    border-radius: 10px;
+    color: white;
+    margin-left: 30px;
+    font-size: 25px;
+    padding-top: 8px;
+}
+.lives{
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding-top: 8px;
+    margin-top: -50px;
+    margin-right: 28px;
+    
+}
+
+h2{
+    display: inline-block;
+    font-size: 20px;
+    margin: 15px;
 }
 
 .active{
    transform: translateY(2px); 
    -webkit-filter: brightness(150%);
-    box-shadow: inset 1px 1px 10px white;
+    box-shadow: inset 1px 1px 20px white;
 }
 
 .test-view{
     background-color: blue;
     
 }
-.colorBTN:hover{
-    cursor: pointer;
-}
 
-.colorBTN:active {
-    transform: translateY(2px);
-    -webkit-filter: brightness(150%);
-    box-shadow: inset 1px 1px 10px white;
+#Strict{
+    margin-bottom: -70px;
 }

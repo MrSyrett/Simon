@@ -5,25 +5,31 @@
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
         <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
         <link rel="stylesheet" type="text/css" href="Simon.css">
+        <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
         <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
         <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
         <script type="text/javascript" src="Simon.js"></script>
     </head>
     <body>
         <div class="container">
-            <div class="row first-row">
-                <div class="colorBTN zero button_0"></div>
-                <div class="colorBTN one button_1"></div>
+            <div id="board" class="row">
+                <div id="0" class="colorBTN zero button_0"></div>
+                <div id="1" class="colorBTN one button_1"></div>
+                <div id="2" class="colorBTN two button_2"></div>
+                <div id="3" class="colorBTN three button_3"></div>
             </div>
-            <div class="row second-row">
-                <div class="colorBTN two button_2"></div>
-                <div class="colorBTN three button_3"></div>
-            </div>
-            
         </div>
-        <div class="level"></div>
-        <button class="testBTN">Test</button>
-        <div class="gameSeq"></div>
-        <div class="layerSeq"></div>
+        <div class="face">
+            <p>SIMON</p>
+           <button class="Start btn btn-info">START</button>
+           <button id="Strict" class="btn btn-danger">STRICT</button>
+            <div class="output">0</div> 
+            
+            <div class="lives">3</div>
+            <h2>LEVEL</h2>
+              <h2>LIVES</h2>
+        </div>
+        
+        
     </body>
 </html>
